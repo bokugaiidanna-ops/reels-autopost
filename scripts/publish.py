@@ -9,9 +9,9 @@ import json, os, sys, time, shutil, urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timezone
 
 API = 'https://graph.instagram.com/' + os.environ.get('IG_API_VERSION', 'v23.0')  # Instagram Login 用
-ACCOUNTS = {  # account フォルダ名 -> シークレットの接尾辞
-    'okane': 'OKANE',
-    'tenshoku': 'TENSHOKU',
+ACCOUNTS = {  # account フォルダ名 -> (シークレットの接尾辞, インスタのユーザーID)
+    'okane': ('OKANE', '17841477284747057'),        # @tokusuru_okane
+    'tenshoku': ('TENSHOKU', '17841476511960111'),  # @tokusuru_tenshoku
 }
 DRY = os.environ.get('DRY_RUN') == '1'
 
@@ -57,10 +57,10 @@ def publish(user_id, token, item_dir, meta):
 def main():
     now = datetime.now(timezone.utc)
     posted_any, errors = False, []
-    for acct, sfx in ACCOUNTS.items():
+    for acct, (sfx, default_id) in ACCOUNTS.items():
         qdir = os.path.join('queue', acct)
         if not os.path.isdir(qdir): continue
-        token, user_id = os.environ.get('IG_TOKEN_' + sfx), os.environ.get('IG_USER_ID_' + sfx)
+        token, user_id = os.environ.get('IG_TOKEN_' + sfx), os.environ.get('IG_USER_ID_' + sfx) or default_id
         for name in sorted(os.listdir(qdir)):
             item = os.path.join(qdir, name)
             mp = os.path.join(item, 'meta.json')
@@ -72,7 +72,7 @@ def main():
             if when > now:
                 print(f'[{acct}] {name}: {meta["publish_at"]} まで待つ'); continue
             if not token or not user_id:
-                errors.append(f'{acct}: IG_TOKEN_{sfx} / IG_USER_ID_{sfx} が設定されていない'); break
+                errors.append(f'{acct}: シークレット IG_TOKEN_{sfx} が設定されていない'); break
             print(f'[{acct}] {name}: 投稿します')
             try:
                 res = publish(user_id, token, item, meta)

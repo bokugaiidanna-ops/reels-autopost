@@ -12,6 +12,8 @@
 ## シークレット（Settings → Secrets and variables → Actions）
 | 名前 | 中身 |
 |---|---|
-| IG_TOKEN_OKANE / IG_USER_ID_OKANE | お金アカウントの長期トークンとユーザーID |
-| IG_TOKEN_TENSHOKU / IG_USER_ID_TENSHOKU | 転職アカウントの長期トークンとユーザーID |
+| IG_TOKEN_OKANE | お金アカウントのトークン（Meta アプリ「Reels Autopost」→ Instagram API → Generate token） |
+| IG_TOKEN_TENSHOKU | 転職アカウントのトークン（同上） |
+
+ユーザーIDは scripts/publish.py に直接書いてある（okane: 17841477284747057 / tenshoku: 17841476511960111）。
 | GH_PAT | トークン自動更新用（このリポジトリの Secrets を書ける細かい権限のトークン） |
