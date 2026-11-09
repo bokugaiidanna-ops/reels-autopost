@@ -2,7 +2,9 @@ name: publish-reels
 on:
   schedule:
     - cron: '5 * * * *'   # 毎時5分（公開リポジトリなら実行時間は無料・無制限）（GitHub の都合で数分〜十数分遅れることがある）
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      check_only: {description: 'トークン確認だけ（投稿しない）', type: boolean, default: false}
 permissions:
   contents: write
 concurrency: publish
@@ -21,6 +23,7 @@ jobs:
           IG_USER_ID_OKANE: ${{ secrets.IG_USER_ID_OKANE }}
           IG_TOKEN_TENSHOKU: ${{ secrets.IG_TOKEN_TENSHOKU }}
           IG_USER_ID_TENSHOKU: ${{ secrets.IG_USER_ID_TENSHOKU }}
+          CHECK_ONLY: ${{ inputs.check_only && '1' || '' }}
       - if: always() && steps.pub.outputs.posted == 'true'
         run: |
           git config user.name "autopost-bot"

@@ -65,7 +65,25 @@ def publish(user_id, token, item_dir, meta):
     return {'container_id': cid, 'media_id': p.get('id'), 'video_url': video_url}
 
 
+def check():
+    # 投稿はせず、トークンでアカウント情報が読めるかだけ確かめる
+    bad = False
+    for acct, (sfx, default_id) in ACCOUNTS.items():
+        token, uid = os.environ.get('IG_TOKEN_' + sfx), os.environ.get('IG_USER_ID_' + sfx) or default_id
+        if not token: print(f'[{acct}] トークンなし'); bad = True; continue
+        ok = False
+        for host in HOSTS:
+            try:
+                r = req('GET', f'{host}/{uid}?fields=username,followers_count,media_count&access_token={token}')
+                print(f'[{acct}] OK via {host.split("/")[2]}: {r}'); ok = True; break
+            except RuntimeError as e:
+                print(f'[{acct}] {host.split("/")[2]} NG: {str(e)[:300]}')
+        bad |= not ok
+    sys.exit(1 if bad else 0)
+
+
 def main():
+    if os.environ.get('CHECK_ONLY') == '1': return check()
     now = datetime.now(timezone.utc)
     posted_any, errors = False, []
     for acct, (sfx, default_id) in ACCOUNTS.items():
