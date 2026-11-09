@@ -8,7 +8,10 @@ item フォルダの中身：
 import json, os, sys, time, shutil, urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timezone
 
-API = 'https://graph.instagram.com/' + os.environ.get('IG_API_VERSION', 'v23.0')  # Instagram Login 用
+VER = os.environ.get('IG_API_VERSION', 'v23.0')
+# トークンの種類で窓口が違う（Instagram Login → graph.instagram.com / Unified Login・SUAT → graph.facebook.com）。順に試す
+HOSTS = ['https://graph.instagram.com/' + VER, 'https://graph.facebook.com/' + VER]
+API = HOSTS[0]
 ACCOUNTS = {  # account フォルダ名 -> (シークレットの接尾辞, インスタのユーザーID)
     'okane': ('OKANE', '17841477284747057'),        # @tokusuru_okane
     'tenshoku': ('TENSHOKU', '17841476511960111'),  # @tokusuru_tenshoku
@@ -37,8 +40,16 @@ def publish(user_id, token, item_dir, meta):
         params['trial_params'] = json.dumps({'graduation_strategy': meta.get('graduation', 'MANUAL')})
     if DRY:
         print('  [dry-run]', video_url); return {'dry_run': True}
-    # 1) 入れ物を作る（Meta が video_url から動画を取りに行く）
-    cid = req('POST', f'{API}/{user_id}/media', params)['id']
+    # 1) 入れ物を作る（Meta が video_url から動画を取りに行く）。通った窓口をこのあとも使う
+    global API
+    last = None
+    for host in HOSTS:
+        try:
+            cid = req('POST', f'{host}/{user_id}/media', params)['id']; API = host; break
+        except RuntimeError as e:
+            last = e; print('  ', host, 'failed:', str(e)[:200])
+    else:
+        raise last
     # 2) 処理が終わるのを待つ（最大10分）
     for _ in range(60):
         s = req('GET', f'{API}/{cid}?fields=status_code,status&access_token={token}')
