@@ -1,0 +1,15 @@
+name: refresh-ig-tokens
+on:
+  schedule:
+    - cron: '0 0 1 * *'   # 毎月1日
+  workflow_dispatch: {}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/refresh_tokens.py
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          IG_TOKEN_OKANE: ${{ secrets.IG_TOKEN_OKANE }}
+          IG_TOKEN_TENSHOKU: ${{ secrets.IG_TOKEN_TENSHOKU }}
