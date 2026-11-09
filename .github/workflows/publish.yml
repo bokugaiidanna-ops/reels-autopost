@@ -23,6 +23,8 @@ jobs:
           IG_USER_ID_OKANE: ${{ secrets.IG_USER_ID_OKANE }}
           IG_TOKEN_TENSHOKU: ${{ secrets.IG_TOKEN_TENSHOKU }}
           IG_USER_ID_TENSHOKU: ${{ secrets.IG_USER_ID_TENSHOKU }}
+          IG_TOKEN_TOUSHI: ${{ secrets.IG_TOKEN_TOUSHI }}
+          IG_USER_ID_TOUSHI: ${{ secrets.IG_USER_ID_TOUSHI }}
           CHECK_ONLY: ${{ inputs.check_only && '1' || '' }}
       - if: always() && steps.pub.outputs.posted == 'true'
         run: |

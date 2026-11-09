@@ -13,3 +13,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}
           IG_TOKEN_OKANE: ${{ secrets.IG_TOKEN_OKANE }}
           IG_TOKEN_TENSHOKU: ${{ secrets.IG_TOKEN_TENSHOKU }}
+          IG_TOKEN_TOUSHI: ${{ secrets.IG_TOKEN_TOUSHI }}
