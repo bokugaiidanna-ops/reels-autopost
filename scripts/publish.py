@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 
 VER = os.environ.get('IG_API_VERSION', 'v23.0')
 # トークンの種類で窓口が違う（Instagram Login → graph.instagram.com / Unified Login・SUAT → graph.facebook.com）。順に試す
-HOSTS = ['https://graph.instagram.com/' + VER, 'https://graph.facebook.com/' + VER]
+HOSTS = ['https://graph.facebook.com/' + VER, 'https://graph.instagram.com/' + VER]
 API = HOSTS[0]
 ACCOUNTS = {  # account フォルダ名 -> (シークレットの接尾辞, インスタのユーザーID)
     'okane': ('OKANE', '17841477284747057'),        # @tokusuru_okane
@@ -75,7 +75,15 @@ def check():
         for host in HOSTS:
             try:
                 r = req('GET', f'{host}/{uid}?fields=username,followers_count,media_count&access_token={token}')
-                print(f'[{acct}] OK via {host.split("/")[2]}: {r}'); ok = True; break
+                print(f'[{acct}] OK via {host.split("/")[2]}: {r}'); ok = True
+                try:
+                    d = req('GET', f'{host}/debug_token?input_token={token}&access_token={token}').get('data', {})
+                    exp = d.get('expires_at'); dexp = d.get('data_access_expires_at')
+                    fmt = lambda x: 'なし(無期限)' if not x else datetime.fromtimestamp(x, timezone.utc).isoformat()
+                    print(f'[{acct}] 有効期限: {fmt(exp)} / データアクセス期限: {fmt(dexp)} / type={d.get("type")}')
+                except RuntimeError as e:
+                    print(f'[{acct}] debug_token NG: {str(e)[:200]}')
+                break
             except RuntimeError as e:
                 print(f'[{acct}] {host.split("/")[2]} NG: {str(e)[:300]}')
         bad |= not ok
