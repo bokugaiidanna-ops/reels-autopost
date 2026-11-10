@@ -14,3 +14,4 @@ jobs:
           IG_TOKEN_OKANE: ${{ secrets.IG_TOKEN_OKANE }}
           IG_TOKEN_TENSHOKU: ${{ secrets.IG_TOKEN_TENSHOKU }}
           IG_TOKEN_TOUSHI: ${{ secrets.IG_TOKEN_TOUSHI }}
+          IG_TOKEN_SEISEIAI: ${{ secrets.IG_TOKEN_SEISEIAI }}

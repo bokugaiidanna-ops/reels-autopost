@@ -16,6 +16,7 @@ ACCOUNTS = {  # account フォルダ名 -> (シークレットの接尾辞, イ�
     'okane': ('OKANE', '17841477284747057'),        # @tokusuru_okane
     'tenshoku': ('TENSHOKU', '17841476511960111'),  # @tokusuru_tenshoku
     'toushi': ('TOUSHI', '17841460420782603'),      # @tokusuru_toushi
+    'seiseiai': ('SEISEIAI', '17841444770203423'),  # @tokusuru_seiseiai
 }
 DRY = os.environ.get('DRY_RUN') == '1'
 
