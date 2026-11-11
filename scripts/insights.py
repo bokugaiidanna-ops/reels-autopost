@@ -33,5 +33,18 @@ for acct, sfx in ACC.items():
                 row[m] = d['data'][0]['values'][0]['value']
             except Exception as e: row.setdefault('err', {})[m] = str(e)[:500]
         rows.append(row); print(name, {k: row.get(k) for k in ['views', 'reach', 'saved', 'shares', 'likes', 'ig_reels_avg_watch_time']})
+    # アカウントの全メディア（手動投稿・トライアル含む）一覧
+    uid = {'okane': '17841477284747057', 'tenshoku': '17841476511960111', 'toushi': '17841460420782603', 'seiseiai': '17841444770203423'}[acct]
+    media, path = [], f'{uid}/media?fields=id,permalink,timestamp,caption,like_count,comments_count,media_product_type,is_shared_to_feed&limit=100&access_token={tok}'
+    try:
+        for _ in range(5):
+            d = get(path); media += d.get('data', [])
+            nxt = d.get('paging', {}).get('next')
+            if not nxt: break
+            path = nxt.split('/', 4)[4]
+    except Exception as e: media.append({'err': str(e)[:500]})
+    for m in media:
+        if 'caption' in m: m['caption'] = m['caption'][:80]
     os.makedirs('insights', exist_ok=True)
+    json.dump(media, open(f'insights/{acct}_media.json', 'w'), ensure_ascii=False, indent=1)
     json.dump({'fetched_at': datetime.now(timezone.utc).isoformat(), 'rows': rows}, open(f'insights/{acct}.json', 'w'), ensure_ascii=False, indent=1)
