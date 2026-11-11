@@ -1,0 +1,27 @@
+name: fetch-insights
+on:
+  workflow_dispatch:
+    inputs:
+      accounts: {description: 'okane,tenshoku など', default: 'okane'}
+permissions:
+  contents: write
+concurrency: publish
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python scripts/insights.py
+        env:
+          ACCOUNTS: ${{ inputs.accounts }}
+          IG_TOKEN_OKANE: ${{ secrets.IG_TOKEN_OKANE }}
+          IG_TOKEN_TENSHOKU: ${{ secrets.IG_TOKEN_TENSHOKU }}
+          IG_TOKEN_TOUSHI: ${{ secrets.IG_TOKEN_TOUSHI }}
+          IG_TOKEN_SEISEIAI: ${{ secrets.IG_TOKEN_SEISEIAI }}
+      - run: |
+          git config user.name "autopost-bot"
+          git config user.email "autopost-bot@users.noreply.github.com"
+          git add insights && git commit -m "insights" && git pull --rebase && git push || true
