@@ -1,0 +1,305 @@
+{
+ "fetched_at": "2026-11-11T04:05:56.139589+00:00",
+ "rows": [
+  {
+   "item": "20261110_0800_nencho_A",
+   "media_id": "18133231774839677",
+   "id": "18133231774839677",
+   "comments_count": 0,
+   "like_count": 9,
+   "permalink": "https://www.instagram.com/reel/Dfihqs0CZWl/",
+   "timestamp": "2026-11-09T23:36:53+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_0900_nencho_D",
+   "media_id": "17880231228567866",
+   "id": "17880231228567866",
+   "comments_count": 0,
+   "like_count": 1,
+   "permalink": "https://www.instagram.com/reel/DfiouucmU-9/",
+   "timestamp": "2026-11-10T00:38:32+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_1000_nencho_B",
+   "media_id": "18123503501288531",
+   "id": "18123503501288531",
+   "comments_count": 0,
+   "like_count": 66,
+   "permalink": "https://www.instagram.com/reel/Dfishiuj7sS/",
+   "timestamp": "2026-11-10T01:11:41+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_1100_nencho_C",
+   "media_id": "17954882835313820",
+   "id": "17954882835313820",
+   "comments_count": 0,
+   "like_count": 11,
+   "permalink": "https://www.instagram.com/reel/DfizN0igeRb/",
+   "timestamp": "2026-11-10T02:10:10+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_1430_nencho2_A",
+   "media_id": "17953839792052870",
+   "id": "17953839792052870",
+   "comments_count": 0,
+   "like_count": 16,
+   "permalink": "https://www.instagram.com/reel/DfjMTMHlSsW/",
+   "timestamp": "2026-11-10T05:49:21+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_1530_nencho2_B",
+   "media_id": "18127160524921531",
+   "id": "18127160524921531",
+   "comments_count": 0,
+   "like_count": 2,
+   "permalink": "https://www.instagram.com/reel/DfjUHPSjWdu/",
+   "timestamp": "2026-11-10T06:57:32+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_1630_nencho2_C",
+   "media_id": "17880303060565998",
+   "id": "17880303060565998",
+   "comments_count": 0,
+   "like_count": 2,
+   "permalink": "https://www.instagram.com/reel/DfjcVbJimrh/",
+   "timestamp": "2026-11-10T08:09:28+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_1900_zero_A",
+   "media_id": "18040103204686059",
+   "id": "18040103204686059",
+   "comments_count": 0,
+   "like_count": 5,
+   "permalink": "https://www.instagram.com/reel/DfjpKGJlPKL/",
+   "timestamp": "2026-11-10T10:01:32+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_2000_zero_D",
+   "media_id": "18092316572256226",
+   "id": "18092316572256226",
+   "comments_count": 0,
+   "like_count": 8,
+   "permalink": "https://www.instagram.com/reel/DfjwOhNAkKu/",
+   "timestamp": "2026-11-10T11:03:16+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_2100_zero_B",
+   "media_id": "18644947405043328",
+   "id": "18644947405043328",
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/Dfj3GDXkf_v/",
+   "timestamp": "2026-11-10T12:03:19+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261110_2200_zero_C",
+   "media_id": "18000608424037537",
+   "id": "18000608424037537",
+   "comments_count": 0,
+   "like_count": 9,
+   "permalink": "https://www.instagram.com/reel/DfkFF89Ab1b/",
+   "timestamp": "2026-11-10T14:05:36+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261111_0800_fu4_U",
+   "media_id": "17960162964017151",
+   "id": "17960162964017151",
+   "comments_count": 0,
+   "like_count": 1,
+   "permalink": "https://www.instagram.com/reel/DflClLZiVpA/",
+   "timestamp": "2026-11-10T23:02:54+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261111_0900_fu4_I",
+   "media_id": "18119237734816786",
+   "id": "18119237734816786",
+   "comments_count": 0,
+   "like_count": 1,
+   "permalink": "https://www.instagram.com/reel/DflJa-ujF5X/",
+   "timestamp": "2026-11-11T00:02:41+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261111_1000_fu4_W",
+   "media_id": "18102121826561693",
+   "id": "18102121826561693",
+   "comments_count": 0,
+   "like_count": 3,
+   "permalink": "https://www.instagram.com/reel/DflQTdiDyOa/",
+   "timestamp": "2026-11-11T01:02:41+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  },
+  {
+   "item": "20261111_1100_fu4_D",
+   "media_id": "18137938264660357",
+   "id": "18137938264660357",
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DflcEaQjH8b/",
+   "timestamp": "2026-11-11T02:45:39+0000",
+   "err": {
+    "views": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "reach": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "saved": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "shares": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "likes": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "comments": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "total_interactions": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_avg_watch_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt",
+    "ig_reels_video_view_total_time": "400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbt"
+   }
+  }
+ ]
+}
