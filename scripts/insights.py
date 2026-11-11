@@ -7,12 +7,12 @@ ACC = {'okane': 'OKANE', 'tenshoku': 'TENSHOKU', 'toushi': 'TOUSHI', 'seiseiai':
 METRICS = ['views', 'reach', 'saved', 'shares', 'likes', 'comments', 'total_interactions', 'ig_reels_avg_watch_time', 'ig_reels_video_view_total_time']
 
 def get(path):
-    last = None
+    errs = []
     for h in HOSTS:
         try:
             with urllib.request.urlopen(f'{h}/{path}', timeout=60) as r: return json.loads(r.read().decode())
-        except urllib.error.HTTPError as e: last = f'{e.code} {e.read().decode()[:300]}'
-    raise RuntimeError(last)
+        except urllib.error.HTTPError as e: errs.append(f'{h.split("/")[2]} {e.code} {e.read().decode()[:200]}')
+    raise RuntimeError(' || '.join(errs))
 
 for acct, sfx in ACC.items():
     tok = os.environ.get('IG_TOKEN_' + sfx)
@@ -31,7 +31,7 @@ for acct, sfx in ACC.items():
             try:
                 d = get(f'{mid}/insights?metric={m}&access_token={tok}')
                 row[m] = d['data'][0]['values'][0]['value']
-            except Exception as e: row.setdefault('err', {})[m] = str(e)[:120]
+            except Exception as e: row.setdefault('err', {})[m] = str(e)[:500]
         rows.append(row); print(name, {k: row.get(k) for k in ['views', 'reach', 'saved', 'shares', 'likes', 'ig_reels_avg_watch_time']})
     os.makedirs('insights', exist_ok=True)
     json.dump({'fetched_at': datetime.now(timezone.utc).isoformat(), 'rows': rows}, open(f'insights/{acct}.json', 'w'), ensure_ascii=False, indent=1)
