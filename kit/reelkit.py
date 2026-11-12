@@ -18,6 +18,7 @@
   network  光るネットワーク          title, sub
   noise    ノイズから絵              title, sub, steps
   cta      フォロー・保存の呼びかけ  follow, save
+  screen   実際の画面キャプチャ      img(パス), label(上の見出し), focus:[x0,y0,x1,y1](0〜1で切り出し)
 共通: id, voice(読み上げ文), sub(下字幕), dur, pad, bg("dark"|"black"|"light"|"yellow"|"paper")
 """
 import sys, os, json, math, random, subprocess, argparse
@@ -311,7 +312,30 @@ def s_cta(img, t, sc, th):
         box(lay, [(W - tw) / 2, y - 50, (W + tw) / 2, y + 50], c, fill=(30, 18, 50, 235), r=50)
         ImageDraw.Draw(lay).text((W / 2, y), s, font=f, fill=WHITE, anchor="mm"); fade(img, lay, p)
 
-RENDER = {"title": s_title, "bars": s_bars, "cards": s_cards, "chat": s_chat, "zoom": s_zoom, "people": s_people, "kinetic": s_kinetic,
+_scr = {}
+def s_screen(img, t, sc, th):
+    """実際の画面キャプチャ（img）をカードで見せる。focus=[x0,y0,x1,y1]（0〜1）の範囲を切り出し、ゆっくり寄る"""
+    key = (sc["img"], tuple(sc.get("focus", [0, 0, 1, 1])))
+    if key not in _scr:
+        src = Image.open(sc["_imgpath"]).convert("RGB"); fx0, fy0, fx1, fy1 = sc.get("focus", [0, 0, 1, 1])
+        crop = src.crop((int(fx0 * src.width), int(fy0 * src.height), int(fx1 * src.width), int(fy1 * src.height)))
+        cw = 920; ch = min(1180, int(crop.height * cw / crop.width)); crop = crop.resize((cw, int(crop.height * cw / crop.width)), Image.LANCZOS)
+        _scr[key] = (crop, cw, ch)
+    crop, cw, ch = _scr[key]
+    z = 1 + .07 * clamp(t / max(1, sc["_dur"]))  # slow push-in
+    zc = crop.resize((int(cw * z), int(crop.height * z)), Image.BILINEAR)
+    ox = (zc.width - cw) // 2; oy = int((min(zc.height, ch * z) - ch) * .3)
+    view = zc.crop((ox, oy, ox + cw, oy + ch))
+    p = P(t, 0, .45); x0 = (W - cw) // 2; y0 = int(330 + (1 - p) * 120)
+    lay = L(); box(lay, [x0 - 6, y0 - 6, x0 + cw + 6, y0 + ch + 6], th["accent"], fill=(0, 0, 0, 255), w=4, r=30)
+    m = Image.new("L", (cw, ch), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, cw, ch], 24, fill=255)
+    lay.paste(view, (x0, y0), m); fade(img, lay, p)
+    if sc.get("label"):
+        q = P(t, .1, .35); lay = L(); d = ImageDraw.Draw(lay); f = font("K", 54); tw = d.textlength(sc["label"], font=f) + 90
+        box(lay, [(W - tw) / 2, 170, (W + tw) / 2, 280], th["accent"], fill=(10, 30, 46, 240), r=55)
+        ImageDraw.Draw(lay).text((W / 2, 225), sc["label"], font=f, fill=WHITE, anchor="mm"); fade(img, lay, q)
+
+RENDER = {"title": s_title, "screen": s_screen, "bars": s_bars, "cards": s_cards, "chat": s_chat, "zoom": s_zoom, "people": s_people, "kinetic": s_kinetic,
           "tier": s_tier, "point": s_point, "network": s_network, "noise": s_noise, "cta": s_cta}
 
 def subtitle(img, s, a, light):
@@ -335,6 +359,7 @@ def build_timeline(script, hook, base):
     t = 0.
     for i, s in enumerate(scenes):
         s.setdefault("id", f"s{i}"); a = os.path.join(base, "audio", f"{s['id']}.wav")
+        if s.get("img"): s["_imgpath"] = os.path.join(base, s["img"])
         vl = wav_len(a) if os.path.exists(a) else None
         s["_audio"] = a if vl else None
         s["_dur"] = s.get("dur") or ((vl + s.get("pad", .55)) if vl else 3.0)
