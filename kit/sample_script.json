@@ -1,0 +1,20 @@
+{
+ "theme": "seiseiai",
+ "source": "見本（数字はGPT-2/GPT-3のパラメータ数以外は仮）",
+ "hooks": {
+  "A": {"type": "title", "dur": 2.4, "lines": [["型キット", "white", 110], ["見本リール", "accent", 150]]}
+ },
+ "scenes": [
+  {"id": "bars", "type": "bars", "dur": 3.4, "bg": "black", "title": "今日の天気は ＿", "subtitle": "次に来る言葉の確率", "items": [{"label": "晴れ", "value": 62, "suffix": "%", "color": "gold"}, {"label": "雨", "value": 25, "suffix": "%"}, {"label": "くもり", "value": 13, "suffix": "%"}], "sub": "型：bars（確率・比較の棒グラフ）"},
+  {"id": "cards", "type": "cards", "dur": 3.4, "title": "有料版の月額", "items": [{"name": "サービスA", "big": "3,000円", "sub": "例", "bullets": ["特徴1", "特徴2"]}, {"name": "サービスB", "big": "2,900円", "sub": "例", "bullets": ["特徴1", "特徴2"]}, {"name": "サービスC", "big": "$20", "sub": "例", "bullets": ["特徴1", "特徴2"]}], "sub": "型：cards（カード比較）"},
+  {"id": "chat", "type": "chat", "dur": 4.2, "bg": "light", "messages": [{"who": "me", "text": "日本で3番目に高い山は？"}, {"who": "ai", "text": "槍ヶ岳です。"}], "impact": "それ、ウソ！", "impact_sub": "正解は奥穂高岳と間ノ岳（同率）", "sub": "型：chat（チャット＋ツッコミ）"},
+  {"id": "zoom", "type": "zoom", "dur": 4.2, "title": "AIの大きさ比較", "subtitle": "パラメータ数", "items": [{"name": "GPT-2", "value": 1.5, "label": "15億"}, {"name": "GPT-3", "value": 175, "label": "1,750億", "color": "gold"}], "sub": "型：zoom（サイズ比較ズームアウト）"},
+  {"id": "people", "type": "people", "dur": 3.6, "bg": "paper", "title": "会社員100人のうち", "subtitle": "毎日AIを使う人は？（仮）", "highlight": 38, "label": "{n}人", "sub": "型：people（100人の棒人間）"},
+  {"id": "kinetic", "type": "kinetic", "dur": 2.8, "bg": "yellow", "lines": [["AIは", 120], ["考えて", 220], ["ない。", 220, "red"], ["予想してる。", 150]], "sub": "型：kinetic（文字だけ）"},
+  {"id": "tier", "type": "tier", "dur": 3.6, "title": "ティア表（並びは仮）", "tiers": {"S": ["ツールA"], "A": ["ツールB", "ツールC"], "B": ["ツールD"], "C": []}, "sub": "型：tier（ティア表）"},
+  {"id": "network", "type": "network", "dur": 3.0, "title": "AIの頭の中", "subtitle": "光が左から右へ流れる", "sub": "型：network（光るネットワーク）"},
+  {"id": "noise", "type": "noise", "dur": 3.4, "bg": "paper", "title": "砂嵐から絵ができる", "sub": "型：noise（ノイズから絵）"},
+  {"id": "point", "type": "point", "dur": 2.6, "lines": [["数字・名前は", "white", 60], ["自分で確かめる", "good", 92]], "sub": "型：point（結論）"},
+  {"id": "cta", "type": "cta", "dur": 2.6, "follow": "ほかの生成AIのしくみも、フォローしてね", "save": "保存して、あとで見返してね", "sub": "型：cta（フォロー・保存）"}
+ ]
+}
