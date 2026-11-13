@@ -25,7 +25,7 @@ for jf in sorted(glob.glob("imagejobs/*/job.json")):
     for it in job["items"]:
         out = os.path.join(d, it["name"] + ".jpg")
         if os.path.exists(out): continue
-        p = it["prompt"] + ("。" + job["style"] if job.get("style") else "")
+        st = it.get("style", job.get("style")); p = it["prompt"] + ("。" + st if st else "")
         model = it.get("model", job.get("model", "@cf/black-forest-labs/flux-2-klein-4b"))
         data, msg = None, ""
         for k in range(2):
