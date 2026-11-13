@@ -29,7 +29,8 @@ for jf in sorted(glob.glob("imagejobs/*/job.json")):
         model = it.get("model", job.get("model", "@cf/black-forest-labs/flux-2-klein-4b"))
         data, msg = None, ""
         for k in range(2):
-            data, msg = run(model, p, job.get("width", 768), job.get("height", 1344), None if it.get("no_ref") else ref)
+            r_it = os.path.join(d, it["ref"]) if it.get("ref") else ref
+            data, msg = run(model, p, job.get("width", 768), job.get("height", 1344), None if it.get("no_ref") else r_it)
             if data: break
             time.sleep(3)
         log.write(f"{time.strftime('%H:%M:%S')} {it['name']} {model} {msg}\n"); log.flush(); print(it["name"], msg)

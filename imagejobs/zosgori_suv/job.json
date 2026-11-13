@@ -1,0 +1,23 @@
+{
+ "width": 768, "height": 1344, "model": "@cf/black-forest-labs/flux-2-klein-4b", "ref": "ref2.png",
+ "style": "same gorilla character as the reference image: muscular gorilla with plain red headband, white shirt with rolled sleeves, dark navy vest, red tie, black slacks. semi-realistic Japanese digital illustration like a high quality mobile game art, cinematic lighting, vertical 9:16, no text, no letters, no logo, no brand emblem",
+ "items": [
+  {"name": "i01", "ref": "ref3.png", "prompt": "The gorilla stands in a luxury car showroom at night, pointing proudly at a huge black boxy luxury SUV with no emblem, glossy reflections"},
+  {"name": "i02", "ref": "ref1.png", "prompt": "The gorilla sits behind a desk in a small company office, CEO nameplate without text, arms crossed, serious face"},
+  {"name": "i03", "prompt": "The gorilla shaking hands with a human car salesman next to a black boxy luxury SUV with no emblem in a bright showroom"},
+  {"name": "i04", "prompt": "The gorilla crouches beside a used black luxury SUV in a used car lot, inspecting the tire with a thoughtful face, afternoon light"},
+  {"name": "i05", "prompt": "The gorilla reads a thick law book in a quiet library at night, glasses on his nose, focused"},
+  {"name": "i06", "ref": "ref3.png", "prompt": "The gorilla points at a whiteboard showing a simple bar chart with six equal bars, office meeting room, explaining"},
+  {"name": "i07", "prompt": "The gorilla looks surprised at a whiteboard showing only two tall bars, eyes wide, office meeting room"},
+  {"name": "i08", "prompt": "The gorilla firmly stamps a document with a red seal at his desk, confident smirk, papers and a laptop"},
+  {"name": "i09", "prompt": "Close-up of the gorilla holding a calculator, grinning, warm desk lamp light"},
+  {"name": "i10", "prompt": "The gorilla driving a black luxury SUV through a neon-lit Tokyo street at night, one hand on the wheel, smug face, seen through the windshield"},
+  {"name": "i11", "ref": "ref1.png", "prompt": "The gorilla stands with arms crossed in a dark room, single spotlight from above, serious warning expression"},
+  {"name": "i12", "prompt": "The gorilla hands car keys to a used car dealer at a used car lot at sunset, the black SUV behind them"},
+  {"name": "i13", "prompt": "The gorilla stares at a large hourglass on his desk, sand falling, thoughtful, dark office"},
+  {"name": "i14", "ref": "ref1.png", "prompt": "The gorilla looks out of a high-rise office window at the Tokyo skyline at dusk, back view, ambitious"},
+  {"name": "i15", "no_ref": true, "prompt": "A tired Japanese office worker in a cheap suit sits at a small kitchen table at night counting coins from a wallet, gloomy mood, semi-realistic Japanese digital illustration"},
+  {"name": "i16", "prompt": "The gorilla leaning against a black luxury SUV in a parking garage, relaxed confident smile, sunglasses in hand"},
+  {"name": "i17", "ref": "ref3.png", "prompt": "Upper body of the gorilla pointing straight at the viewer with a fierce confident grin, dark navy background with dramatic rim light"}
+ ]
+}
