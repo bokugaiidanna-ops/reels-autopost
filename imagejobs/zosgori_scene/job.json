@@ -1,0 +1,10 @@
+{
+ "width": 768, "height": 1344, "model": "@cf/black-forest-labs/flux-2-klein-4b", "ref": "ref.png",
+ "style": "same character as the reference image: muscular gorilla with plain red headband, white shirt with rolled sleeves, dark navy vest, red tie, black slacks. semi-realistic Japanese digital illustration, cinematic lighting, vertical 9:16, no text, no letters, no logo",
+ "items": [
+  {"name": "s1_atm", "prompt": "The gorilla stands at a convenience store ATM at night, looking shocked at a small receipt in his hand"},
+  {"name": "s2_laptop", "prompt": "The gorilla sits at a small desk in a cozy apartment at night, typing on a laptop with a focused expression, warm desk lamp"},
+  {"name": "s3_train", "prompt": "The gorilla stands in a crowded Tokyo commuter train in the morning, holding a strap, looking tired"},
+  {"name": "s4_point", "prompt": "Close-up upper body of the gorilla pointing at the viewer with a confident grin, dark navy background with dramatic rim light"}
+ ]
+}
