@@ -1,0 +1,6 @@
+06:55:30 a_real_klein @cf/black-forest-labs/flux-2-klein-4b ok
+06:55:33 a_real_schnell @cf/black-forest-labs/flux-1-schnell ok
+06:55:43 b_chibi_klein @cf/black-forest-labs/flux-2-klein-4b ok
+06:55:47 b_chibi_schnell @cf/black-forest-labs/flux-1-schnell ok
+06:56:07 c_gekiga_klein @cf/black-forest-labs/flux-2-klein-4b ok
+06:56:10 c_gekiga_schnell @cf/black-forest-labs/flux-1-schnell ok
