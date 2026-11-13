@@ -1,0 +1,26 @@
+name: gen-images
+on:
+  push:
+    paths: ["imagejobs/**/job.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: gen-images
+  cancel-in-progress: false
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - run: python scripts/gen_images.py
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      - name: commit images
+        run: |
+          git config user.name "gen-images-bot"; git config user.email "bot@users.noreply.github.com"
+          git add imagejobs
+          git diff --cached --quiet || (git commit -m "画像を生成" && for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done)
