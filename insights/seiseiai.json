@@ -1,0 +1,125 @@
+{
+ "fetched_at": "2026-11-13T05:18:43.000075+00:00",
+ "rows": [
+  {
+   "item": "20261111_2000_uso_B",
+   "media_id": "18119650990803577",
+   "id": "18119650990803577",
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfmV7cTD_Jv/",
+   "timestamp": "2026-11-11T11:11:12+0000",
+   "err": {
+    "views": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A881e2a3wtOOWqSDn20na8T\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AsZrP00KxtMRpEKSY9O9ByI\"}}",
+    "reach": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_tTAfneQCIRFv1RR5AsLrN\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A-W8VE9WX6Rdhgtf-HPbj4O\"}}",
+    "saved": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANQcgl4_CLWL5HEjFHs0sF6\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A5O4RB_3UIktLfhEXsdh2EH\"}}",
+    "shares": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ap682hdxB4cEFu7C8Ey04Ne\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AsKZm9GS_3CL1QAfY436Uxo\"}}",
+    "likes": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A5iieUwwQR5RDyr5g62vKtY\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AlE66en5OBRRkJtXhxQeEak\"}}",
+    "comments": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AvHnSRAYyicE6U-u4m6AK6D\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Aqv5CmJYoRrdXMqPiEp-W0T\"}}",
+    "total_interactions": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AuUBVV9bjWXHQZDMgF8iD6D\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"APaZIzhpyOLfN6d-_lnQZBo\"}}",
+    "ig_reels_avg_watch_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A6TN7YGfelMmo6y49V6kven\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ATbB4P_d3EOgiCHUiDaUWwh\"}}",
+    "ig_reels_video_view_total_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AWwYD0dx5h2TuKgJBXnGXdF\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AAJ3KLL54K2G-0Lab2wwnly\"}}"
+   }
+  },
+  {
+   "item": "20261111_2100_uso_C",
+   "media_id": "17953914954325263",
+   "id": "17953914954325263",
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfmcMprgMe_/",
+   "timestamp": "2026-11-11T12:05:58+0000",
+   "err": {
+    "views": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AuXFPxM70EmDZRtZf084s9-\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A1lHSrdyLmZG_NB1M5pYUo_\"}}",
+    "reach": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxQ3a87SrWQMw-e_Hei-IPM\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AP9Qu89I-LUPgjMNP_RbAEH\"}}",
+    "saved": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-NoOVrYSgHkY73VY48PIvl\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AhfmXBGb34hdlhOpNtfbEP4\"}}",
+    "shares": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AmvbUMK6ySbRzgJmrB-4tBG\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AMlOhYfrSpYyPRjuhBJa2dY\"}}",
+    "likes": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AZvnmwAaIh7HJ6hivJbrrEx\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AQz7V0ASb4t5V3YaEQk8WPk\"}}",
+    "comments": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A5iftWrpJJwGKPx-Xi1P3BW\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ABwVRS_AubOPbNCYSzwRw9h\"}}",
+    "total_interactions": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Acjw-lGr9w6EKooH6OTTEv8\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AGESkCQD6cW622xxBV9hmEk\"}}",
+    "ig_reels_avg_watch_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ADaAsMeT7tgGA6PaYvTolaY\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Ao9RwO3GERkk2tymyqFsV5Q\"}}",
+    "ig_reels_video_view_total_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AknJuO8DQjTGNqVuKwJRFoR\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Acfd8qgMpoH85hJl-OadBS3\"}}"
+   }
+  },
+  {
+   "item": "20261112_0800_ryokin_A",
+   "media_id": "18252376129310958",
+   "id": "18252376129310958",
+   "comments_count": 0,
+   "like_count": 2,
+   "permalink": "https://www.instagram.com/reel/DfnsRDcinL3/",
+   "timestamp": "2026-11-11T23:45:39+0000",
+   "err": {
+    "views": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"APwscdQ5QsJCEloeE6gPUHb\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A1qu_xXaQlvyQk8GkVclyDT\"}}",
+    "reach": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ABv-jqhHl1ou_gBEttrit73\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AiaKr4S8XZGlRVcAbfee4Ub\"}}",
+    "saved": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ab2J_kC40ub9ylj6ZC2IeO9\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AbDdye8B_bUQ2iA4hk2k7kd\"}}",
+    "shares": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Akzj5S1nqC_ViWiP7thWmo8\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AEr6VABIxbSdKDkllgG5UxK\"}}",
+    "likes": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AkzHBp8mq2WiwQSkPVR3caG\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AirBmXpunE6aHhMFKgZ0pqa\"}}",
+    "comments": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AAyEzUt8s8c5GC2KiaPtYlt\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AHXAix8_ulcyFLelIPRnKa9\"}}",
+    "total_interactions": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A25XUeOvQDIFe0X6ue6Ts_L\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ADwQLpEDSNW0Hj6xLw8-FC1\"}}",
+    "ig_reels_avg_watch_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AczeSXJoTnRGHO0gy81d7NG\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A9CY5NW4_WPil2Q0e0RfMlS\"}}",
+    "ig_reels_video_view_total_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Axu1OnN3YrRBumdYFv13EC8\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ABbQo7HuX9lUHpprE0sj7iQ\"}}"
+   }
+  },
+  {
+   "item": "20261112_1000_ryokin_B",
+   "media_id": "18132471172789074",
+   "id": "18132471172789074",
+   "comments_count": 0,
+   "like_count": 1,
+   "permalink": "https://www.instagram.com/reel/Dfn9FQtD4e0/",
+   "timestamp": "2026-11-12T02:12:36+0000",
+   "err": {
+    "views": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ApOWCcno8B5t50ZFUfl7ouq\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AhEHUl4a9W9FkiYUS6maXee\"}}",
+    "reach": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A5JYJJNoCCAK6vQYfscW0xm\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ALxElMTKXxK24Mg99AGgk9e\"}}",
+    "saved": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AL3iZM1wAndZ4ZKKlrpX8Ur\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ADk-9wCKK4lshSafxj1FfBq\"}}",
+    "shares": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ARl8qGDtJo8WZqNN6-WWq36\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Ae6H1sdV2oXswUvUFg0w7Dh\"}}",
+    "likes": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ad4DnSjcKz2VSJiSV_O-h-Q\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A88QRa3oiz4boQ--8AMf16k\"}}",
+    "comments": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A4z0ZETtJw4IfSYnFrX0OsQ\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A3fjFkUQeeuFddRfkeDUbNr\"}}",
+    "total_interactions": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxTjLjP3PNJi_aEW8OPLsfH\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ACdrJNGssudF6wr4W9yfkba\"}}",
+    "ig_reels_avg_watch_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A64TSJn0a_bWyGwDUO1o2oQ\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A0Vfj84_lxzCBCIYxKXD5C5\"}}",
+    "ig_reels_video_view_total_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Au4xn4fF8pvffMOULBJmYpq\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AkN4Gvr_T_LFhrl50bMbOCr\"}}"
+   }
+  },
+  {
+   "item": "20261112_1200_ryokin_C",
+   "media_id": "18101870396438822",
+   "id": "18101870396438822",
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfoCy-jk-3-/",
+   "timestamp": "2026-11-12T03:02:39+0000",
+   "err": {
+    "views": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ApjkvAXVqdpqq6FTEoEaID9\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A3qyle3xOEDtkha7a92Wil6\"}}",
+    "reach": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AbG820-wX3lhv7O3ZmNdzQk\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AdLSiawsb_AlzRFRN82vcPJ\"}}",
+    "saved": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A7PiS7EhIfGGnQEePxHWbGq\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A83RJt6mffesrKoKMotZJWr\"}}",
+    "shares": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A89uMKsGgocVIPqd45knrDA\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AtLWajrPvgGVRXqKxbSCkZE\"}}",
+    "likes": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AYU2yyvaRoSRkYmJgXCwCH4\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AoRjpOqAlnuTnVdNKSP1uA4\"}}",
+    "comments": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASlked5cM8cfd4yxhxQJ3gQ\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AirL0C-It2ytVKH7irL9brq\"}}",
+    "total_interactions": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AhXjsbo2wj_YOwT_4QIq2ra\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A6Y2Juq-iHRQMmEqc1sj_l1\"}}",
+    "ig_reels_avg_watch_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AK30vSxYth26YaAm3acQ79L\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Aa9rwp2O2H8gfNR0MNrTYtq\"}}",
+    "ig_reels_video_view_total_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A9WAg10JeS5WGkK5eBMqtyX\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A4Srk-kopEzCL1o3kjfNjMx\"}}"
+   }
+  },
+  {
+   "item": "20261113_1300_shittakaburi_A",
+   "media_id": "18117387539025652",
+   "id": "18117387539025652",
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfqvLy0Gcwq/",
+   "timestamp": "2026-11-13T04:09:09+0000",
+   "err": {
+    "views": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AGtVGVyscOIh8uBODvlqMP-\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AWZWi9PGzQPJUY2hTQLUp9D\"}}",
+    "reach": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AmpajcYJdAjFNaTpdl5r8Vb\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AXgnon40Oxz55aClX43kXgR\"}}",
+    "saved": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ahcc9pSlb2CLZo0Wqyzd_Ad\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Ak6OASIdbCBhuHO0pW1vFLg\"}}",
+    "shares": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AqBZ0TrmLYWW-Fx_E4LjXNo\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ANFKPbiHV5UGmO0vNvn2GD-\"}}",
+    "likes": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ADZLT8-oflsi_OmVtYmDzu7\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Acrw2OVD1Ef9_-rJv41UCsP\"}}",
+    "comments": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aqilrfh8TfYAGojlXxfn_mS\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AAa4uptFDT4C9Fkesk1EVoX\"}}",
+    "total_interactions": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AU7kEfxsAF5O4njTsqnTnPo\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AUkyrb4IghlKyyVkbCmap4d\"}}",
+    "ig_reels_avg_watch_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AXRTa9WT4yVg0P6sPcT9xQW\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AIKwE8SyoFgKmR1Vq_Ggl6T\"}}",
+    "ig_reels_video_view_total_time": "graph.facebook.com 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASgPOz58X93gW3ZRN1nKk8K\"}} || graph.instagram.com 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AbwL_jolt6aELH8Fl2_COYo\"}}"
+   }
+  }
+ ]
+}
