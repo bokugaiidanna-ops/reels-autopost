@@ -1,0 +1,10 @@
+{
+ "width": 768, "height": 1344, "model": "@cf/black-forest-labs/flux-2-klein-4b",
+ "style": "semi-realistic Japanese digital illustration like a high quality mobile game character art, clean lineart, cinematic lighting, vertical 9:16, full body, no text, no letters, no logo",
+ "items": [
+  {"name": "d_gorilla_suit", "prompt": "Original mascot: a huge muscular anthropomorphic gorilla businessman, black slicked-back hair, tight white dress shirt with rolled sleeves, dark navy vest and red tie, arms crossed, intense confident stare, standing in a dark modern office at night with city lights"},
+  {"name": "e_gorilla_salute", "prompt": "Original mascot: a massive muscular anthropomorphic gorilla in a tight dark suit and red tie, wearing a red hachimaki headband, bowing deeply and shouting a greeting with fist on chest, sales office background with whiteboard of sales charts, dramatic morning light"},
+  {"name": "f_red_ogre", "prompt": "Original mascot: a hyper muscular salaryman with deep red skin like a Japanese oni but handsome, short black hair, small horns, tight white shirt, dark vest and black tie, smirking, holding a business card between two fingers, night Tokyo street background"},
+  {"name": "g_gold_muscle", "prompt": "Original mascot: an extremely muscular businessman with tanned bronze skin and buzz-cut hair, tight white shirt bursting at the chest, dark vest, gold wristwatch, sunglasses pushed up on forehead, pointing at the viewer with a confident grin, luxury office with skyline view"}
+ ]
+}
