@@ -1,0 +1,12 @@
+{
+ "width": 768, "height": 1344, "model": "@cf/black-forest-labs/flux-2-klein-4b",
+ "style": "semi-realistic Japanese digital illustration like a high quality mobile game character art, clean lineart, cinematic lighting, vertical 9:16, full body, no text, no letters, no logo",
+ "items": [
+  {"name": "h_lion", "prompt": "Original mascot: a muscular anthropomorphic lion executive with a golden mane, tight white shirt, black vest and gold tie, holding a tablet showing rising charts, proud grin, penthouse office with night city view"},
+  {"name": "i_shark", "prompt": "Original mascot: a muscular anthropomorphic great white shark salesman in a sharp grey three-piece suit and blue tie, toothy grin, adjusting cufflinks, glass skyscraper lobby background"},
+  {"name": "j_bull", "prompt": "Original mascot: a huge muscular anthropomorphic black bull salesman with short horns and a nose ring, rolled-up white shirt sleeves, dark vest and red tie, red hachimaki headband, snorting steam, charging pose in a busy sales floor"},
+  {"name": "k_bear", "prompt": "Original mascot: a big muscular anthropomorphic brown bear manager with glasses, white shirt, dark brown vest and green tie, calculator in one paw, calm smart smile, cozy evening office with bookshelves"},
+  {"name": "l_silver", "prompt": "Original mascot: an extremely muscular businessman with metallic silver skin like chrome, slicked-back black hair, sharp eyes, tight white shirt, dark vest and red tie, arms crossed, futuristic city at night background"},
+  {"name": "m_green", "prompt": "Original mascot: a muscular businessman with emerald green skin, short spiky silver hair, confident smirk, tight white shirt, black vest and gold tie, flipping a coin, luxury bank vault background with stacks of cash"}
+ ]
+}
