@@ -19,6 +19,7 @@
   noise    ノイズから絵              title, sub, steps
   cta      フォロー・保存の呼びかけ  follow, save
   screen   実際の画面キャプチャ      img(パス), label(上の見出し), focus:[x0,y0,x1,y1](0〜1で切り出し)
+  prompt   指示文をカードにタイピング text(\n改行), label, type_dur, note, size
 共通: id, voice(読み上げ文), sub(下字幕), dur, pad, bg("dark"|"black"|"light"|"yellow"|"paper")
 """
 import sys, os, json, math, random, subprocess, argparse
@@ -70,6 +71,7 @@ def box(img, b, outline, fill=(14, 12, 28, 225), w=4, r=26, glow=True):
 def outline_text(d, xy, s, f, fill, stroke=(0, 0, 0), sw=8, anchor="mm"):
     d.text(xy, s, font=f, fill=fill, anchor=anchor, stroke_width=sw, stroke_fill=stroke)
 def wrap(s, f, maxw, d):
+    if "\n" in s: return [l for part in s.split("\n") for l in (wrap(part, f, maxw, d) or [""])]
     out, cur = [], ""
     for ch in s:
         if d.textlength(cur + ch, font=f) > maxw and cur: out.append(cur); cur = ch
@@ -335,7 +337,38 @@ def s_screen(img, t, sc, th):
         box(lay, [(W - tw) / 2, 170, (W + tw) / 2, 280], th["accent"], fill=(10, 30, 46, 240), r=55)
         ImageDraw.Draw(lay).text((W / 2, 225), sc["label"], font=f, fill=WHITE, anchor="mm"); fade(img, lay, q)
 
-RENDER = {"title": s_title, "screen": s_screen, "bars": s_bars, "cards": s_cards, "chat": s_chat, "zoom": s_zoom, "people": s_people, "kinetic": s_kinetic,
+def s_prompt(img, t, sc, th):
+    """プロンプト（指示文）を白いカードにタイピング表示。text は \\n で改行。type_dur 秒で打ち終わる"""
+    if sc.get("label"):
+        q = P(t, 0, .3); lay = L(); d = ImageDraw.Draw(lay); f = font("K", 54); tw = d.textlength(sc["label"], font=f) + 90
+        box(lay, [(W - tw) / 2, 170, (W + tw) / 2, 280], th["accent"], fill=(10, 30, 46, 240), r=55)
+        ImageDraw.Draw(lay).text((W / 2, 225), sc["label"], font=f, fill=WHITE, anchor="mm"); fade(img, lay, q)
+    p = P(t, .1, .35); x0, x1, y0 = 70, W - 70, int(340 + (1 - p) * 60)
+    f = font(sc.get("weight", "B"), sc.get("size", 50)); lh = int(sc.get("size", 50) * 1.55); d = ImageDraw.Draw(img)
+    lines = []
+    for para in sc["text"].split("\n"): lines += wrap(para, f, x1 - x0 - 110, d) if para else [""]
+    y1 = y0 + 150 + lh * len(lines) + 40
+    lay = L(); dl = ImageDraw.Draw(lay)
+    dl.rounded_rectangle([x0, y0, x1, y1], 30, fill=(250, 250, 252, 255))
+    dl.text((x0 + 50, y0 + 62), sc.get("card_title", "コピペ用"), font=font("B", 36), fill=(120, 130, 145), anchor="lm")
+    dl.rounded_rectangle([x1 - 210, y0 + 30, x1 - 40, y0 + 94], 18, outline=(170, 175, 190), width=3)
+    dl.text((x1 - 125, y0 + 62), "コピー", font=font("B", 32), fill=(120, 130, 145), anchor="mm")
+    dl.line([(x0 + 40, y0 + 118), (x1 - 40, y0 + 118)], fill=(225, 228, 235), width=2)
+    total = sum(len(l) for l in lines); n = int(total * clamp((t - .45) / sc.get("type_dur", 2.2)))
+    y = y0 + 150; caret = None
+    for l in lines:
+        s = l[:max(0, n)]
+        dl.text((x0 + 55, y), s, font=f, fill=INK)
+        if caret is None and (n <= len(l)): caret = (x0 + 55 + dl.textlength(s, font=f) + 4, y)
+        n -= len(l); y += lh
+    if caret is None: caret = (x0 + 55 + dl.textlength(lines[-1], font=f) + 4, y - lh)
+    if n < 0 or int(t * 2.5) % 2 == 0: dl.rectangle([caret[0], caret[1] + 6, caret[0] + 5, caret[1] + lh - 18], fill=th["accent"])
+    fade(img, lay, p)
+    if sc.get("note"):
+        q = P(t, .45 + sc.get("type_dur", 2.2) + .2, .3)
+        if q > 0: ImageDraw.Draw(img).text((W / 2, y1 + 70), sc["note"], font=font("B", 42), fill=th["accent"], anchor="mm")
+
+RENDER = {"title": s_title, "screen": s_screen, "prompt": s_prompt, "bars": s_bars, "cards": s_cards, "chat": s_chat, "zoom": s_zoom, "people": s_people, "kinetic": s_kinetic,
           "tier": s_tier, "point": s_point, "network": s_network, "noise": s_noise, "cta": s_cta}
 
 def subtitle(img, s, a, light):
