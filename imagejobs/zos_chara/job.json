@@ -1,0 +1,12 @@
+{
+ "width": 768, "height": 1344,
+ "style": "vertical 9:16 composition, full body visible, high detail, cinematic lighting, no text, no letters, no logo",
+ "items": [
+  {"name": "a_real_klein", "model": "@cf/black-forest-labs/flux-2-klein-4b", "prompt": "Original mascot character 'Zos Warrior': a muscular Japanese salaryman warrior, navy business suit with samurai armor shoulder plates and a red headband, holding a glowing business card like a sword, confident grin, standing in a night office district, semi-realistic 3D anime style like a modern game character render"},
+  {"name": "a_real_schnell", "model": "@cf/black-forest-labs/flux-1-schnell", "prompt": "Original mascot character 'Zos Warrior': a muscular Japanese salaryman warrior, navy business suit with samurai armor shoulder plates and a red headband, holding a glowing business card like a sword, confident grin, standing in a night office district, semi-realistic 3D anime style like a modern game character render"},
+  {"name": "b_chibi_klein", "model": "@cf/black-forest-labs/flux-2-klein-4b", "prompt": "Cute chibi mascot character: a small muscular salaryman warrior with big head, navy suit, tiny samurai armor on shoulders, red headband, fist pump shouting, Pixar-like 3D render, soft studio lighting, simple office background"},
+  {"name": "b_chibi_schnell", "model": "@cf/black-forest-labs/flux-1-schnell", "prompt": "Cute chibi mascot character: a small muscular salaryman warrior with big head, navy suit, tiny samurai armor on shoulders, red headband, fist pump shouting, Pixar-like 3D render, soft studio lighting, simple office background"},
+  {"name": "c_gekiga_klein", "model": "@cf/black-forest-labs/flux-2-klein-4b", "prompt": "Bold Japanese gekiga manga style illustration, heroic salaryman warrior with intense eyes, white shirt and loosened tie under dented armor breastplate, red headband, heavy ink shading, dramatic speed lines background, sunrise over Tokyo skyline"},
+  {"name": "c_gekiga_schnell", "model": "@cf/black-forest-labs/flux-1-schnell", "prompt": "Bold Japanese gekiga manga style illustration, heroic salaryman warrior with intense eyes, white shirt and loosened tie under dented armor breastplate, red headband, heavy ink shading, dramatic speed lines background, sunrise over Tokyo skyline"}
+ ]
+}
