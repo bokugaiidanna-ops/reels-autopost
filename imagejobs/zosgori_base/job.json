@@ -1,0 +1,9 @@
+{
+ "width": 768, "height": 1344, "model": "@cf/black-forest-labs/flux-2-klein-4b",
+ "style": "semi-realistic Japanese digital illustration like a high quality mobile game character art, clean lineart, cinematic lighting, vertical 9:16, full body, plain red headband without any text, no text, no letters, no logo",
+ "items": [
+  {"name": "base1", "prompt": "Original mascot 'Zos Gorilla': a huge muscular anthropomorphic gorilla businessman, black fur, slicked-back black hair on top, plain red hachimaki headband, tight white dress shirt with rolled sleeves, dark navy vest and red tie, black slacks, arms crossed, intense confident stare, standing in a dark modern office at night with city lights"},
+  {"name": "base2", "prompt": "Original mascot 'Zos Gorilla': a huge muscular anthropomorphic gorilla businessman, black fur, plain red hachimaki headband, tight white dress shirt with rolled sleeves, dark navy vest and red tie, black slacks, fist on chest shouting a greeting, simple dark navy studio background with soft rim light"},
+  {"name": "base3", "prompt": "Original mascot 'Zos Gorilla': a huge muscular anthropomorphic gorilla businessman, black fur, plain red hachimaki headband, tight white dress shirt with rolled sleeves, dark navy vest and red tie, black slacks, pointing at the viewer with a confident grin, simple dark navy studio background with soft rim light"}
+ ]
+}
