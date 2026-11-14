@@ -1,0 +1,348 @@
+{
+ "width": 768,
+ "height": 1344,
+ "model": "@cf/black-forest-labs/flux-2-klein-4b",
+ "style": "Edit the reference image. Keep the exact same character, outfit, background, composition, camera angle, lighting and art style. Change nothing else. No text, no logo.",
+ "items": [
+  {
+   "name": "i01_closed",
+   "ref": "i01.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i01_open",
+   "ref": "i01.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i01_blink",
+   "ref": "i01.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i01_pose",
+   "ref": "i01.png",
+   "prompt": "Only change: he now gives a big thumbs up with his right hand. Mouth open as if talking."
+  },
+  {
+   "name": "i02_closed",
+   "ref": "i02.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i02_open",
+   "ref": "i02.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i02_blink",
+   "ref": "i02.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i02_pose",
+   "ref": "i02.png",
+   "prompt": "Only change: he now points his right index finger at the viewer instead of crossing his arms. Mouth open as if talking."
+  },
+  {
+   "name": "i03_closed",
+   "ref": "i03.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i03_open",
+   "ref": "i03.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i03_blink",
+   "ref": "i03.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i03_pose",
+   "ref": "i03.png",
+   "prompt": "Only change: he now pats the car hood proudly with his free hand. Mouth open as if talking."
+  },
+  {
+   "name": "i04_closed",
+   "ref": "i04.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i04_open",
+   "ref": "i04.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i04_blink",
+   "ref": "i04.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i04_pose",
+   "ref": "i04.png",
+   "prompt": "Only change: he now stands up and holds his chin, thinking. Mouth open as if talking."
+  },
+  {
+   "name": "i05_closed",
+   "ref": "i05.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i05_open",
+   "ref": "i05.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i05_blink",
+   "ref": "i05.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i05_pose",
+   "ref": "i05.png",
+   "prompt": "Only change: he now looks up from the book and raises his index finger. Mouth open as if talking."
+  },
+  {
+   "name": "i06_closed",
+   "ref": "i06.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i06_open",
+   "ref": "i06.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i06_blink",
+   "ref": "i06.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i06_pose",
+   "ref": "i06.png",
+   "prompt": "Only change: he now turns to face the viewer and points at the whiteboard behind him. Mouth open as if talking."
+  },
+  {
+   "name": "i07_closed",
+   "ref": "i07.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i07_open",
+   "ref": "i07.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i07_blink",
+   "ref": "i07.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i07_pose",
+   "ref": "i07.png",
+   "prompt": "Only change: he now covers his open mouth with both hands in shock. Mouth open as if talking."
+  },
+  {
+   "name": "i08_closed",
+   "ref": "i08.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i08_open",
+   "ref": "i08.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i08_blink",
+   "ref": "i08.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i08_pose",
+   "ref": "i08.png",
+   "prompt": "Only change: he now holds up the stamped document toward the viewer. Mouth open as if talking."
+  },
+  {
+   "name": "i09_closed",
+   "ref": "i09.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i09_open",
+   "ref": "i09.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i09_blink",
+   "ref": "i09.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i09_pose",
+   "ref": "i09.png",
+   "prompt": "Only change: he now raises the calculator high with a triumphant fist pump. Mouth open as if talking."
+  },
+  {
+   "name": "i10_closed",
+   "ref": "i10.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i10_open",
+   "ref": "i10.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i10_blink",
+   "ref": "i10.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i10_pose",
+   "ref": "i10.png",
+   "prompt": "Only change: he now gives a thumbs up out of the car window. Mouth open as if talking."
+  },
+  {
+   "name": "i11_closed",
+   "ref": "i11.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i11_open",
+   "ref": "i11.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i11_blink",
+   "ref": "i11.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i11_pose",
+   "ref": "i11.png",
+   "prompt": "Only change: he now wags his index finger at the viewer as a warning. Mouth open as if talking."
+  },
+  {
+   "name": "i12_closed",
+   "ref": "i12.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i12_open",
+   "ref": "i12.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i12_blink",
+   "ref": "i12.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i12_pose",
+   "ref": "i12.png",
+   "prompt": "Only change: he now waves goodbye to the car. Mouth open as if talking."
+  },
+  {
+   "name": "i13_closed",
+   "ref": "i13.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i13_open",
+   "ref": "i13.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i13_blink",
+   "ref": "i13.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i13_pose",
+   "ref": "i13.png",
+   "prompt": "Only change: he now taps the top of the hourglass with one finger. Mouth open as if talking."
+  },
+  {
+   "name": "i14_closed",
+   "ref": "i14.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i14_open",
+   "ref": "i14.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i14_blink",
+   "ref": "i14.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i14_pose",
+   "ref": "i14.png",
+   "prompt": "Only change: he now turns his head over his shoulder toward the viewer with a smirk. Mouth open as if talking."
+  },
+  {
+   "name": "i15_closed",
+   "ref": "i15.png",
+   "prompt": "Only change: the man's mouth is firmly closed."
+  },
+  {
+   "name": "i15_open",
+   "ref": "i15.png",
+   "prompt": "Only change: the man's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i15_blink",
+   "ref": "i15.png",
+   "prompt": "Only change: the man's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i15_pose",
+   "ref": "i15.png",
+   "prompt": "Only change: the man now puts his head in his hands in despair. Mouth open as if talking."
+  },
+  {
+   "name": "i16_closed",
+   "ref": "i16.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i16_open",
+   "ref": "i16.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i16_blink",
+   "ref": "i16.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i16_pose",
+   "ref": "i16.png",
+   "prompt": "Only change: he now points at the car with his thumb, grinning. Mouth open as if talking."
+  },
+  {
+   "name": "i17_closed",
+   "ref": "i17.png",
+   "prompt": "Only change: the gorilla's mouth is firmly closed."
+  },
+  {
+   "name": "i17_open",
+   "ref": "i17.png",
+   "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."
+  },
+  {
+   "name": "i17_blink",
+   "ref": "i17.png",
+   "prompt": "Only change: the gorilla's eyes are closed (blinking) and mouth closed."
+  },
+  {
+   "name": "i17_pose",
+   "ref": "i17.png",
+   "prompt": "Only change: he now crosses his arms with a fierce grin. Mouth open as if talking."
+  }
+ ]
+}
