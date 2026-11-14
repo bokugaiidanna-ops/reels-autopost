@@ -1,0 +1,12 @@
+{
+ "width": 768, "height": 1344, "model": "@cf/black-forest-labs/flux-2-klein-4b",
+ "style": "Edit the reference image. Keep the exact same character, outfit, background, composition, camera angle, lighting and art style. Change nothing else.",
+ "items": [
+  {"name": "i02_closed", "ref": "i02.png", "prompt": "Only change: the gorilla's mouth is firmly closed."},
+  {"name": "i02_open", "ref": "i02.png", "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."},
+  {"name": "i02_blink", "ref": "i02.png", "prompt": "Only change: the gorilla's eyes are closed (blinking), mouth closed."},
+  {"name": "i02_pose", "ref": "i02.png", "prompt": "Only change: the gorilla now points his right index finger at the viewer instead of crossing his arms."},
+  {"name": "i09_closed", "ref": "i09.png", "prompt": "Only change: the gorilla's mouth is closed with a slight smirk."},
+  {"name": "i09_open", "ref": "i09.png", "prompt": "Only change: the gorilla's mouth is wide open as if talking loudly."}
+ ]
+}
