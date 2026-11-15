@@ -1,1 +1,7 @@
-{"publish_at":"2026-11-15T10:00:00+09:00","approved":true,"trial":true,"graduation":"MANUAL"}
+{
+ "publish_at": "2026-11-15T10:00:00+09:00",
+ "approved": false,
+ "trial": true,
+ "graduation": "MANUAL",
+ "parked": "trial_limit"
+}
