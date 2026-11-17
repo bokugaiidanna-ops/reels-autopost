@@ -1,6 +1,7 @@
 {
  "publish_at": "2026-11-18T08:00:00+09:00",
- "approved": true,
+ "approved": false,
  "trial": true,
- "graduation": "MANUAL"
+ "graduation": "MANUAL",
+ "parked": "user_rejected_short"
 }
