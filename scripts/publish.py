@@ -64,7 +64,20 @@ def publish(user_id, token, item_dir, meta):
         raise RuntimeError('timeout waiting for container')
     # 3) 公開
     p = req('POST', f'{API}/{user_id}/media_publish', {'creation_id': cid, 'access_token': token})
-    return {'container_id': cid, 'media_id': p.get('id'), 'video_url': video_url}
+    res = {'container_id': cid, 'media_id': p.get('id'), 'video_url': video_url}
+    # 4) 最初のコメント：item の comment.txt、なければ comments/<account>.txt（失敗しても投稿は成功扱い）
+    acct = os.path.basename(os.path.dirname(item_dir))
+    for cp in (os.path.join(item_dir, 'comment.txt'), os.path.join('comments', acct + '.txt')):
+        if os.path.isfile(cp):
+            msg = open(cp, encoding='utf-8').read().strip()
+            if msg and res['media_id']:
+                try:
+                    c = req('POST', f"{API}/{res['media_id']}/comments", {'message': msg, 'access_token': token})
+                    res['comment_id'] = c.get('id')
+                except RuntimeError as e:
+                    res['comment_error'] = str(e)[:300]; print('  comment failed:', str(e)[:200])
+            break
+    return res
 
 
 def check():
