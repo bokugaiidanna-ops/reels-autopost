@@ -1,0 +1,34 @@
+ClaudeとChatGPT、つながないと損してます。
+
+Claude CodeからCodex（ChatGPTのコーディングAI）をそのまま呼び出せる、OpenAI公式のプラグインがあります。
+
+▼ STEP1 Claude Codeでこの3行を送る
+/plugin marketplace add openai/codex-plugin-cc
+/plugin install codex@openai-codex
+/reload-plugins
+
+▼ STEP2 準備できたか確認
+/codex:setup
+
+▼ STEP3 役割を決めて頼む
+・設計と最終チェック → Claude
+・実装や重い作業 → Codex（/codex:rescue で任せられる）
+・/codex:review でCodexにレビューしてもらうこともできる
+
+▼ ここが得
+Codexに回した作業は、Codex側の利用枠でカウントされます。
+週の途中でClaudeの使用制限にかかりがちな人ほど効きます。
+
+▼ 必要なもの
+・ChatGPTのアカウント（無料プランも可）またはOpenAIのAPIキー
+・Node.js 18.18以上
+
+出典：OpenAI公式「Codex plugin for Claude Code」（GitHub: openai/codex-plugin-cc）
+
+🔖 保存して、次にClaudeを開くときに試す
+👉 フォローすると、在宅で稼ぐしくみがわかります
+
+🎁プレゼント
+コメントに「副業」と書いてくれた人に、副業のしくみまとめをDMでお送りします（LINEで受け取れます）
+
+#ClaudeCode #Claude #ChatGPT #Codex #AI活用 #生成AI #副業 #在宅ワーク
