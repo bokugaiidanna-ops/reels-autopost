@@ -1,5 +1,35 @@
 [
  {
+  "id": "17918244693472558",
+  "caption": "ChatGPTに、これ聞いてみて。ちょっと刺さります。\n\n▼ そのまま送る\n「これまでの会話から、私の弱点を、褒めずに正直に3つ教えて」\n\n▼ そのあとに\n「明",
+  "comments_count": 0,
+  "is_shared_to_feed": false,
+  "like_count": 0,
+  "media_product_type": "REELS",
+  "permalink": "https://www.instagram.com/reel/DgOfLvvKIUV/",
+  "timestamp": "2026-11-27T01:21:42+0000"
+ },
+ {
+  "id": "17965075041252544",
+  "caption": "これ全部、無料。Geminiの神機能4選。\n\n① Deep Research：調べものを丸ごと任せると、レポートにまとめてくれる\n② Gemini Live：声",
+  "comments_count": 0,
+  "is_shared_to_feed": false,
+  "like_count": 1,
+  "media_product_type": "REELS",
+  "permalink": "https://www.instagram.com/reel/DgMxWxQS5tF/",
+  "timestamp": "2026-11-26T09:22:00+0000"
+ },
+ {
+  "id": "17917396140491142",
+  "caption": "ChatGPTを使うなら、最初にやるべき設定3選。\n\n① データコントロール\n設定 → データコントロール →「すべての人のためにモデルを改善する」をオフ\n会話",
+  "comments_count": 0,
+  "is_shared_to_feed": false,
+  "like_count": 1,
+  "media_product_type": "REELS",
+  "permalink": "https://www.instagram.com/reel/DgMjqiAuTjS/",
+  "timestamp": "2026-11-26T07:22:21+0000"
+ },
+ {
   "id": "18114345344615530",
   "caption": "ChatGPTで絶対やっちゃダメなこと3選。\n\n① 設定を変えずに、仕事の資料を貼る\n無料版・Plus・Proの個人アカウントは、最初から会話がモデルの学習に使",
   "comments_count": 0,
@@ -14,7 +44,7 @@
   "caption": "ChatGPTが「それ正解！」しか言わない…そんな時は設定に3行入れるだけ。\n\n▼ やり方\n設定 → パーソナライズ → カスタム指示 に、この3行を入れる\n\n",
   "comments_count": 0,
   "is_shared_to_feed": false,
-  "like_count": 14,
+  "like_count": 17,
   "media_product_type": "REELS",
   "permalink": "https://www.instagram.com/reel/DgL6eFQBW28/",
   "timestamp": "2026-11-26T01:22:45+0000"
@@ -24,7 +54,7 @@
   "caption": "社長は自分、社員は全員AI。\nひとり会社の\"社員\"を紹介します。\n\n▼ AI株式会社のメンバー\n・ChatGPT（相談役）…アイデア出し・画像づくり\n・Gemi",
   "comments_count": 0,
   "is_shared_to_feed": false,
-  "like_count": 4,
+  "like_count": 5,
   "media_product_type": "REELS",
   "permalink": "https://www.instagram.com/reel/DgKZ7e8BUit/",
   "timestamp": "2026-11-25T11:19:08+0000"
@@ -134,7 +164,7 @@
   "caption": "YouTube運営、Claudeに丸投げできる。\n\n海外で人気の「YouTube Agent Skill」。\nClaudeに入れるだけで、YouTube運営に使",
   "comments_count": 0,
   "is_shared_to_feed": false,
-  "like_count": 14,
+  "like_count": 15,
   "media_product_type": "REELS",
   "permalink": "https://www.instagram.com/reel/DgHPb5QAbM8/",
   "timestamp": "2026-11-24T05:49:25+0000"
@@ -164,7 +194,7 @@
   "caption": "副業で使うAI、今の\"日本代表\"はこの4人。\n\n▼ メンバー\n・ChatGPT（元・絶対的エース）…相談・アイデア出し\n・Kling（動画）…文字から動画を作れ",
   "comments_count": 2,
   "is_shared_to_feed": true,
-  "like_count": 66,
+  "like_count": 70,
   "media_product_type": "REELS",
   "permalink": "https://www.instagram.com/reel/DgG21SgiQNN/",
   "timestamp": "2026-11-24T02:14:26+0000"
@@ -202,9 +232,9 @@
  {
   "id": "17917435431280165",
   "caption": "副業で使うAI、今の\"日本代表\"はこの4人。\n\n▼ メンバー\n・ChatGPT（元・絶対的エース）…相談・アイデア出し\n・Kling（動画）…文字から動画を作れ",
-  "comments_count": 0,
+  "comments_count": 1,
   "is_shared_to_feed": false,
-  "like_count": 193,
+  "like_count": 206,
   "media_product_type": "REELS",
   "permalink": "https://www.instagram.com/reel/DgFQRe1lPeA/",
   "timestamp": "2026-11-23T11:18:14+0000"
@@ -232,9 +262,9 @@
  {
   "id": "18345557566286619",
   "caption": "VLOOKUPは、もう覚えなくていい。\n\nVLOOKUPは「左から何列目か」を数字で入れる関数。\nだから列を1本足すと番号がズレて、別の値が出てしまうことがあり",
-  "comments_count": 1,
+  "comments_count": 0,
   "is_shared_to_feed": false,
-  "like_count": 233,
+  "like_count": 277,
   "media_product_type": "REELS",
   "permalink": "https://www.instagram.com/reel/DgE7tvnklZm/",
   "timestamp": "2026-11-23T08:18:37+0000"
